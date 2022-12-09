@@ -8,7 +8,7 @@
 
 Things to change when first creating a domain concept repository:
 
-- [ ] In `README.md` change `terraform-domain-concept` to the name of this module (i.e. `benniemosher.com`, `moniquemosher.com`)
+- [ ] In `README.md` change `terraform-domain-concept` to the name of this module (i.e. `benniemosher-com-infra`, `moniquemosher-com-infra`)
 - [ ] In `README.md` delete the [TODO](README.md#todo) section
 
 ## 📜 Usage:
