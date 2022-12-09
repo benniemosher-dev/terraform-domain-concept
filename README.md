@@ -1,15 +1,14 @@
-# terraform-module
+# terraform-domain-concept
 
 ![CI Terraform](https://github.com/benniemosher-dev/terraform-module/actions/workflows/ci-terraform.yml/badge.svg)
 
-🧱 A Terraform module template repo 🧱
+🏕 A Terraform domain concept template. 🏕
 
 ## ✅ TODO:
 
-Things to change when first creating a module:
+Things to change when first creating a domain concept repository:
 
-- [ ] In `README.md` change `terraform-module` to the name of this module (i.e. `terraform-cloudflare-record`)
-- [ ] In `.github/workflows/ci-terraform.yml` delete lines 13-14 enabling cost
+- [ ] In `README.md` change `terraform-domain-concept` to the name of this module (i.e. `benniemosher.com`, `moniquemosher.com`)
 - [ ] In `README.md` delete the [TODO](README.md#todo) section
 
 ## 📜 Usage:
@@ -30,9 +29,29 @@ Things to change when first creating a module:
   ```bash
   task infra:validate
   ```
-- To verify you can plan the Terraform in this folder:
+- To plan the infrastructure in this folder:
   ```bash
   task infra:plan
+  ```
+- To plan specific resources of infrastructure in this folder:
+  ```bash
+  task infra:plan -- -target='cloudflare_record.this'
+  ```
+- To apply the infrastructure in this folder:
+  ```bash
+  task infra:apply
+  ```
+- To apply specific resources of infrastructure in this folder:
+  ```bash
+  task infra:apply -- -target='cloudflare_record.this'
+  ```
+- To destroy the infrastructure in this folder:
+  ```bash
+  task infra:destroy
+  ```
+- To destroy specific resources of infrastructure in this folder:
+  ```bash
+  task infra:destroy -- -target='cloudflare_record.this'
   ```
 
 ### 🆒 Extras:
