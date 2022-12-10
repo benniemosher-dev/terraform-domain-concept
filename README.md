@@ -1,6 +1,6 @@
 # terraform-domain-concept
 
-![CI Terraform](https://github.com/benniemosher-dev/terraform-module/actions/workflows/ci-terraform.yml/badge.svg)
+![CI Terraform](https://github.com/benniemosher-dev/terraform-domain-concept/actions/workflows/ci-terraform.yml/badge.svg)
 
 🏕 A Terraform domain concept template. 🏕
 
